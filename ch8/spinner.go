@@ -12,6 +12,7 @@ func main() {
 	fmt.Printf("\rFibonacci(%d) = %d\n", n, fibN)
 }
 
+//
 func spinner(delay time.Duration) {
 	for {
 		for _, r := range `-\|/` {
